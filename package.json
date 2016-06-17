@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "babel-node git-changelog"
+  },
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-modern-node": "^2.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "moment": "^2.13.0",
+    "nodegit": "^0.13.2"
+  },
+  "babel": {
+    "presets": [
+      "modern-node/6.0",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}
